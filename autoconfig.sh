@@ -20,9 +20,9 @@ sudo apt install ubuntu-restricted-extras;  sudo apt install mint-meta-codecs; -
 
 sudo apt install virtualbox -y
 
-sudo snap install spotify -y
+sudo snap install spotify
  
-sudo snap install photogimp -y
+sudo snap install photogimp
 
 ## Download Programas Externos ##
 
@@ -30,28 +30,28 @@ mkdir /home/$USER/Download/Progs
 
 cd /home/$USER/Download/Progs
 
-wget -c https://dl.discordapp.net/apps/linux/0.0.10/discord-0.0.10.deb -y
+wget -c https://dl.discordapp.net/apps/linux/0.0.10/discord-0.0.10.deb
 
-wget -c https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams/teams_1.3.00.5153_amd64.deb -y
+wget -c https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams/teams_1.3.00.5153_amd64.deb
 
 sudo dpkg -i *.deb -y
 
-wget -c https://download.sublimetext.com/sublime_text_3_build_3211_x64.tar.bz2 -y
+wget -c https://download.sublimetext.com/sublime_text_3_build_3211_x64.tar.bz2
 
-wget -c http://eclipse.c3sl.ufpr.br/technology/epp/downloads/release/2020-03/R/eclipse-java-2020-03-R-linux-gtk-x86_64.tar.gz -y
+wget -c http://eclipse.c3sl.ufpr.br/technology/epp/downloads/release/2020-03/R/eclipse-java-2020-03-R-linux-gtk-x86_64.tar.gz
 
 ## Wine && Lutris ##
 
-sudo add-apt-repository ppa:lutris-team/lutris -y
+sudo add-apt-repository ppa:lutris-team/lutris
 sudo apt-get update 
-sudo apt-get install lutris -y
+sudo apt-get install lutris
 
 sudo dpkg --add-achirtecture i386 -y
 
-wget -nc https://dl.winehq.org/wine-builds/winehq.key -y
-sudo apt-key add winehq.key -y
+wget -nc https://dl.winehq.org/wine-builds/winehq.key
+sudo apt-key add winehq.key
 sudo apt update 
-sudo apt install --install-recommends winehq-stable -y
+sudo apt install --install-recommends winehq-stable
 
 ## Fim ##
 echo "Não tem mais jeito, acabou,boa sorte"
