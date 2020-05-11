@@ -26,15 +26,16 @@ sudo snap install photogimp
 
 ## Download Programas Externos ##
 
-mkdir /home/$USER/Download/Progs 
+mkdir /home/$USER/Downloads/Progs 
 
-cd /home/$USER/Download/Progs
+cd /home/$USER/Downloads/Progs
 
 wget -c https://dl.discordapp.net/apps/linux/0.0.10/discord-0.0.10.deb
 
 wget -c https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams/teams_1.3.00.5153_amd64.deb
 
-sudo dpkg -i *.deb -y
+sudo dpkg -i *.deb
+
 
 wget -c https://download.sublimetext.com/sublime_text_3_build_3211_x64.tar.bz2
 
