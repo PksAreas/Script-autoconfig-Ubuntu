@@ -24,6 +24,8 @@ sudo snap install spotify
  
 sudo snap install photogimp
 
+sudo snap install inkscape
+
 ## Download Programas Externos ##
 
 mkdir /home/$USER/Downloads/Progs 
@@ -54,5 +56,7 @@ sudo apt-key add winehq.key
 sudo apt update 
 sudo apt install --install-recommends winehq-stable
 
+
 ## Fim ##
+
 echo "Não tem mais jeito, acabou,boa sorte"
